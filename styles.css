@@ -1,0 +1,95 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+p {
+  margin-top: 0;
+}
+
+.container {
+  padding: 3rem 5% 4rem 0;
+}
+
+.background-frame {
+  position: relative;
+  z-index: -1;
+}
+
+.curve {
+  max-width: 40%;
+  position: relative;
+  top: 3rem;
+}
+
+.pattern {
+  max-width: 49%;
+  position: relative;
+  left: 0.7rem;
+  bottom: 1.8rem;
+}
+
+.quotes {
+  position: relative;
+  bottom: 24.4rem;
+  right: 17.6rem;
+  max-width: 7%;
+}
+
+.picture-frame-cover {
+  padding: 5% 5% 5% 10%;
+  position: absolute;
+  top: 0;
+}
+
+.picture-frame {
+  padding: 5% 5% 5% 0;
+  position: relative;
+}
+
+.text {
+  max-width: 58%;
+  font-size: 32px;
+  font-weight: 300;
+  margin-top: 6rem
+}
+
+.name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.role {
+  display: inline-block;
+  color: rgb(203, 201, 214);
+  font-size: 1.25rem;
+}
+
+.portrait {
+  max-width: 42.5%;
+  position: absolute;
+  top: 1rem;
+  right: 7.4rem;
+  z-index: -1;
+  border-radius: 0.5rem
+}
+
+.next-prev {
+  background-color: white;
+  z-index: 1;
+    width: 6rem;
+    padding: 0.5rem 0;
+    height: 2rem;
+    position: absolute;
+    right: 32rem;
+    top: 34rem;
+    border-radius: 30px;
+}
+
+.prev {
+ margin: 0.5rem 0.5rem 0.5rem 1rem;
+}
+
+.next {
+     margin: 0.5rem 0.5rem 0.5rem 1.7rem;
+}
