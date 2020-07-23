@@ -71,7 +71,8 @@ p {
   top: 1rem;
   right: 7.4rem;
   z-index: -1;
-  border-radius: 0.5rem
+  border-radius: 0.5rem;
+  box-shadow: 0 20px 20px 4px rgba(0, 0, 0, 0.2), inset 0 20px 20px 7px rgba(0, 0, 0, 0.19);
 }
 
 .next-prev {
